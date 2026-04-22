@@ -42,7 +42,7 @@ export const config: TConfig = {
   html: {
     title: "Aman Kaushik",
     fullName: "Aman Kaushik",
-    email: "amankhaushik20112001@gmail.com",
+    email: "amankaushik20112001@gmail.com",
   },
   hero: {
     name: "Aman Kaushik",
