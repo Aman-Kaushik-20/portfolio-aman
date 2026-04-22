@@ -42,7 +42,7 @@ const Contact = () => {
         emailjsConfig.templateId,
         {
           form_name: form.name,
-          to_name: config.html.fullName,
+          name: form.name,
           from_email: form.email,
           to_email: config.html.email,
           message: form.message,
@@ -74,6 +74,31 @@ const Contact = () => {
         className="bg-black-100 flex-[0.75] rounded-2xl p-8"
       >
         <Header useMotion={false} {...config.contact} />
+
+        <div className="mt-6 flex flex-wrap gap-5">
+          <a
+            href="https://linkedin.com/in/aman-kaushik-863248253/"
+            target="_blank"
+            rel="noreferrer"
+            className="text-secondary hover:text-white"
+          >
+            LinkedIn
+          </a>
+          <a
+            href="https://github.com/Aman-Kaushik-20"
+            target="_blank"
+            rel="noreferrer"
+            className="text-secondary hover:text-white"
+          >
+            GitHub
+          </a>
+          <a
+            href={`mailto:${config.html.email}`}
+            className="text-secondary hover:text-white"
+          >
+            {config.html.email}
+          </a>
+        </div>
 
         <form
           // @ts-expect-error

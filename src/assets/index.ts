@@ -7,28 +7,21 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
 import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
 import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
-import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import fastapi from "./tech/fastapi.png";
+import langchain from "./tech/LangChain_Logo.svg.png";
+import neo4j from "./tech/neo4j.webp";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import qolaba from "./company/qolaba-ai-studio.webp";
+import surepass from "./company/surepass.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import python from "./python.png";
+
+import orbitix from "./orbitix.png";
+import supplygraph from "./supplygraph.gif";
+import graphreason from "./graphreason.png";
 
 export {
   logo,
@@ -39,24 +32,16 @@ export {
   github,
   menu,
   close,
-  css,
   docker,
-  figma,
   git,
-  html,
-  javascript,
-  mongodb,
-  nodejs,
-  reactjs,
-  redux,
-  tailwind,
   typescript,
-  threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  fastapi,
+  langchain,
+  neo4j,
+  qolaba,
+  surepass,
+  python,
+  orbitix,
+  supplygraph,
+  graphreason,
 };

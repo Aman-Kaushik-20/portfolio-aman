@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Aman Kaushik",
+    fullName: "Aman Kaushik",
+    email: "amankhaushik20112001@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Aman Kaushik",
+    p: ["I build Generative AI systems, agentic", "workflows and scalable Python backends"],
   },
   contact: {
     p: "Get in touch",
@@ -67,11 +67,13 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `I'm a Python Backend & AI Engineer with 1+ year of production experience
+      designing Generative AI systems, multi-agent workflows and scalable backend
+      architectures. I've shipped high-impact AI solutions for government entities
+      (Maharashtra), Fortune 500 MNCs (EXL) and leading EdTech platforms. I work
+      day-to-day with async Python, FastAPI, LangChain/LangGraph, Agentic AI (Agno),
+      and Graph RAG on Neo4j — with a strong focus on observability, evaluation and
+      getting reliable AI into production. Always in beta, never in doubt.`,
     },
     experience: {
       p: "What I have done so far",
@@ -84,11 +86,10 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `A selection of projects that reflect my work on agentic systems,
+    Graph RAG, and production AI backends. Each one links to the source on GitHub —
+    they cover multi-agent orchestration, vector + graph retrieval, async streaming,
+    and end-to-end evaluation pipelines.`,
     },
   },
 };
