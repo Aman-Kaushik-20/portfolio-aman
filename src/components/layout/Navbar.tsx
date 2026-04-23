@@ -70,7 +70,7 @@ const Navbar = () => {
           </p>
         </Link>
 
-        <ul className="hidden list-none flex-row gap-10 sm:flex">
+        <ul className="hidden list-none flex-row items-center gap-10 sm:flex">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -81,6 +81,15 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
+          <li>
+            <a
+              href="/aman_resume_final.pdf"
+              download
+              className="rounded-lg border border-[#915EFF] px-4 py-2 text-[16px] font-medium text-white hover:bg-[#915EFF]"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         <div className="flex flex-1 items-center justify-end sm:hidden">
@@ -110,6 +119,14 @@ const Navbar = () => {
                   <a href={`#${nav.id}`}>{nav.title}</a>
                 </li>
               ))}
+              <li
+                className="font-poppins cursor-pointer text-[16px] font-medium text-[#915EFF]"
+                onClick={() => setToggle(!toggle)}
+              >
+                <a href="/aman_resume_final.pdf" download>
+                  Resume
+                </a>
+              </li>
             </ul>
           </div>
         </div>
