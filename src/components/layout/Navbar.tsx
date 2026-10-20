@@ -83,8 +83,8 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/aman_resume_final.pdf"
-              download
+              href="/aman_resume_final.pdf.pdf"
+              download="aman_resume_final.pdf"
               className="rounded-lg border border-[#915EFF] px-4 py-2 text-[16px] font-medium text-white hover:bg-[#915EFF]"
             >
               Resume
@@ -123,7 +123,10 @@ const Navbar = () => {
                 className="font-poppins cursor-pointer text-[16px] font-medium text-[#915EFF]"
                 onClick={() => setToggle(!toggle)}
               >
-                <a href="/aman_resume_final.pdf" download>
+                <a
+                  href="/aman_resume_final.pdf.pdf"
+                  download="aman_resume_final.pdf"
+                >
                   Resume
                 </a>
               </li>
