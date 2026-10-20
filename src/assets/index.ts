@@ -13,7 +13,10 @@ import typescript from "./tech/typescript.png";
 import fastapi from "./tech/fastapi.png";
 import langchain from "./tech/LangChain_Logo.svg.png";
 import neo4j from "./tech/neo4j.webp";
+import redis from "./tech/redis_logo.png";
+import rust from "./tech/rust_logo.png";
 
+import impact from "./company/impact_logo.png";
 import qolaba from "./company/qolaba-ai-studio.webp";
 import surepass from "./company/surepass.png";
 
@@ -38,6 +41,9 @@ export {
   fastapi,
   langchain,
   neo4j,
+  redis,
+  rust,
+  impact,
   qolaba,
   surepass,
   python,

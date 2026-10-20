@@ -46,7 +46,7 @@ export const config: TConfig = {
   },
   hero: {
     name: "Aman Kaushik",
-    p: ["I build Generative AI systems, agentic", "workflows and scalable Python backends"],
+    p: ["I build Generative AI systems, agentic", "workflows and scalable backends"],
   },
   contact: {
     p: "Get in touch",
@@ -67,12 +67,12 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a Python Backend & AI Engineer with 1+ year of production experience
+      content: `I'm a Backend & AI Engineer with 1+ year of production experience
       designing Generative AI systems, multi-agent workflows and scalable backend
       architectures. I've shipped high-impact AI solutions for government entities
-      (Maharashtra), Fortune 500 MNCs (EXL) and leading EdTech platforms. I work
-      day-to-day with async Python, FastAPI, LangChain/LangGraph, Agentic AI (Agno),
-      and Graph RAG on Neo4j — with a strong focus on observability, evaluation and
+      (Maharashtra), Fortune 500 MNCs (EXL) and leading EdTech platforms. My backend
+      stack includes Python, FastAPI, Rust, ClickHouse, Redis and Dapr; my AI stack
+      includes LangChain, LangGraph, Neo4j and Agentic AI. I focus on observability, evaluation and
       getting reliable AI into production. Always in beta, never in doubt.`,
     },
     experience: {

@@ -18,6 +18,9 @@ import {
   neo4j,
   git,
   docker,
+  redis,
+  rust,
+  impact,
   qolaba,
   surepass,
   python,
@@ -78,6 +81,14 @@ const technologies: TTechnology[] = [
     icon: neo4j,
   },
   {
+    name: "Rust",
+    icon: rust,
+  },
+  {
+    name: "Redis",
+    icon: redis,
+  },
+  {
     name: "TypeScript",
     icon: typescript,
   },
@@ -93,11 +104,22 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
+    title: "Software Engineer",
+    companyName: "Impact Analytics, Bellandur, Bangalore, Karnataka",
+    icon: impact,
+    iconBg: "#ffffff",
+    date: "September 2026 - Present",
+    points: [
+      "Developed backend services in Rust (Axum, Tokio) for a retail promotion-planning platform, building REST APIs with a CQRS command/query split, typed error handling and OpenAPI documentation as part of a module-by-module migration from Python/FastAPI.",
+      "Worked on data and async layers using ClickHouse (versioned inserts, views), Redis Streams for background job processing, and multi-layer caching (in-process L1 and Redis L2), following CI guardrails (clippy, cargo-deny, k6 load tests).",
+    ],
+  },
+  {
     title: "SWE — Python Backend & AI",
     companyName: "Qolaba AI",
     icon: qolaba,
     iconBg: "#ffffff",
-    date: "February 2025 — Present",
+    date: "February 2025 - May 2026",
     points: [
       "Built a knowledge graph + LLM pipeline on Neo4j to automate OCR-based content structuring for NCERT, Maharashtra and Odisha State Boards, and Bansal Classes — standardizing unstructured enterprise data at scale.",
       "Architected production NLP pipelines for document classification and multilingual translation for the Maharashtra Government (Tapaal), processing thousands of daily inquiries across regional vernaculars and drastically reducing manual triage.",
